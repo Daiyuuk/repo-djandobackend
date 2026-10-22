@@ -15,7 +15,8 @@ class Command(BaseCommand):
             "Anime y Manga": "Series animadas japonesas.",
             "Cómics y Superhéroes": "Universo Marvel y DC Comics.",
             "Videojuegos": "Franquicias de consolas y PC.",
-            "Cine y Televisión": "Películas de culto y sagas."
+            "Cine y Televisión": "Películas de culto y sagas.",
+            
         }
         cat_map = {}
         for nombre, desc in categorias.items():
